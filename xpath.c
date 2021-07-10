@@ -1655,7 +1655,7 @@ xpath_init(sqlite3 *db)
  */
 
 int
-sqlite3_extension_init(sqlite3 *db, char **errmsg,
+sqlite3_xpathvtab_init(sqlite3 *db, char **errmsg,
 		       const sqlite3_api_routines *api)
 {
     SQLITE_EXTENSION_INIT2(api);
